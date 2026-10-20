@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Database files - do not upload database files by default
+*.mdf
+*.ldf
+*.bak
+
+# Secrets and local settings
+.env
+appsettings.Local.json

@@ -1,0 +1,29 @@
+Public Class Patient
+    Public Property PatientID As Integer
+    Public Property PatientCode As String
+    Public Property FirstName As String
+    Public Property LastName As String
+    Public Property DateOfBirth As DateTime
+    Public Property Gender As String
+    Public Property NationalID As String
+    Public Property PassportNo As String
+    Public Property Phone As String
+    Public Property Phone2 As String
+    Public Property Email As String
+    Public Property Address As String
+    Public Property City As String
+    Public Property CountryCode As String
+    Public Property BloodType As String
+    Public Property EmergencyContact As String
+    Public Property EmergencyPhone As String
+    Public Property Notes As String
+    Public Property IsDeleted As Boolean
+    Public Property DeletedAt As DateTime?
+    Public Property DeletedBy As Integer?
+    Public Property CreatedAt As DateTime
+    Public Property CreatedBy As Integer?
+    Public Property UpdatedAt As DateTime?
+    Public Property UpdatedBy As Integer?
+    Public Property DoctorID As Integer
+    Public Property BranchID As Integer
+End Class
